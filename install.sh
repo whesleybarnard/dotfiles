@@ -5,7 +5,7 @@ echo "#######################################"
 echo "#######################################"
 echo "#######################################"
 
-git config --global alias.s 'status'
+git config --global alias.s 'status -u'
 git config --global alias.b 'branch -vv'
 git config --global alias.fa 'fetch --all'
 git config --global alias.fm 'fetch origin main:main'
