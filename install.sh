@@ -24,3 +24,5 @@ git config --global alias.cf 'clean -df'
 git config --global alias.nb 'checkout -b '
 git config --global alias.conf 'config --global -l'
 git config --global alias.rbc 'rebase --continue'
+
+echo 'IRB.conf[:USE_AUTOCOMPLETE] = false' >> ~/.irbrc
